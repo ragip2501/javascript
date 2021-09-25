@@ -40,3 +40,20 @@ document.querySelector("#govde").style.backgroundImage="linear-gradient(green, b
 
 //*************EVENT********************
 
+//(onmouseover, onmouseout =fare üstüne gelince ayrılınca)
+const h= document.querySelector(".h1");
+
+
+h.onmouseover =function(){
+h.style.color="red";
+h.style.backgroundColor="white";
+
+}
+
+//1.resme tıkladığımızda img ler yer değiiştirsin
+
+document.querySelector(".bir").
+onlick=function(){
+    document.querySelector("bir").src="./img/logo2-1.png";
+    document.querySelector(".iki").src="img/js_logo.png";
+}
